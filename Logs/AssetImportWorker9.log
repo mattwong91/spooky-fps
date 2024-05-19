@@ -196,3 +196,114 @@ AssetImportParameters requested are different than current active one (requested
   custom:scripting/monoscript/fileName/StarterAssetsInputs.cs: a7e8a1b91929a93d3b5a09196688da9f -> 109cc5d80cf92b9046134880b5edcf1b
   custom:scripting/monoscript/fileName/FirstPersonController.cs: 8b12a276978159c5862f93090c29bfa5 -> a84db48f9c6674dd2c91a1d423e221b3
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.489 seconds
+Refreshing native plugins compatible for Editor in 1.71 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.309 seconds
+Domain Reload Profiling: 1798ms
+	BeginReloadAssembly (161ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (246ms)
+		LoadAssemblies (286ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1309ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (788ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (612ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5470 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (0.8 MB). Loaded Objects now: 6022.
+Memory consumption went from 198.6 MB to 197.8 MB.
+Total: 4.996091 ms (FindLiveObjects: 0.427630 ms CreateObjectMapping: 0.448469 ms MarkObjects: 3.652020 ms  DeleteObjects: 0.466984 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/UIVirtualTouchZone.cs: 7dc6ac3020fe6a04ec9b50f67c74e843 -> 2cf58d9131af5a78d9083ae59546d69c
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/UIVirtualJoystick.cs: d91cd492c08816cfcd7c002f705e2a97 -> 940ec13d5cec07955291b086529e4dd6
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:scripting/monoscript/fileName/Readme.cs: 0243834a66c4d02c43eccfe3f1926748 -> 5aedf578fb2663036982fb7b05aaf325
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/UIVirtualButton.cs: 52482648e6f5e190b30c7811823ff594 -> 4484a5293e7a4abb96c3b06b8d8dca11
+  custom:scripting/monoscript/fileName/MobileDisableAutoSwitchControls.cs: d7ed10b4aca925877e80f08d0210b16a -> 6080624f52a6a8173325efe0ce361f18
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: f90a78a692f36537585f0ffe30196b53 -> ff7ced1e41c1b99ddf5dfefc88f6bd50
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/UICanvasControllerInput.cs: 2cdef807cafca6682627d2fff45745d7 -> efbd76725fe032d832a1837ce36804c3
+  custom:scripting/monoscript/fileName/BasicRigidBodyPush.cs: 81692452d1a6b6b5ab4a950852e5937c -> 834b632457fae9d11b7ee6ae6006cbf8
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/StarterAssetsInputs.cs: a7e8a1b91929a93d3b5a09196688da9f -> 109cc5d80cf92b9046134880b5edcf1b
+  custom:scripting/monoscript/fileName/FirstPersonController.cs: 8b12a276978159c5862f93090c29bfa5 -> a84db48f9c6674dd2c91a1d423e221b3
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2124650.337476 seconds.
+  path: Assets/AssetPacks/Little_GhostLP(FREE)/Prefabs/LittleGhost_LP (2).prefab
+  artifactKey: Guid(36621476210b2c649b8aeea96b7c2587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Little_GhostLP(FREE)/Prefabs/LittleGhost_LP (2).prefab using Guid(36621476210b2c649b8aeea96b7c2587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63381df40e51ebfce88c29a1fda6fe9e') in 0.151474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/AssetPacks/Little_GhostLP(FREE)/Prefabs/LittleGhost_LP (7).prefab
+  artifactKey: Guid(95aa05ec0ea0a884ab92946b57d2c7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Little_GhostLP(FREE)/Prefabs/LittleGhost_LP (7).prefab using Guid(95aa05ec0ea0a884ab92946b57d2c7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba2f902496250e1b3fea39e3613b800a') in 0.025869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/AssetPacks/Little_GhostLP(FREE)/Prefabs/LittleGhost_LP (4).prefab
+  artifactKey: Guid(855c90c429434444fbe3ca2b5507ab04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Little_GhostLP(FREE)/Prefabs/LittleGhost_LP (4).prefab using Guid(855c90c429434444fbe3ca2b5507ab04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '169b0d394aea50f0f3f729e587babc62') in 0.024502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/AssetPacks/Little_GhostLP(FREE)/Prefabs/LittleGhost_LP (6).prefab
+  artifactKey: Guid(4b5b08dfd84e3c342b10a4e2ed977d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetPacks/Little_GhostLP(FREE)/Prefabs/LittleGhost_LP (6).prefab using Guid(4b5b08dfd84e3c342b10a4e2ed977d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6def319d21ec2be0a4a30dab6a80dfd') in 0.028766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 64
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting
