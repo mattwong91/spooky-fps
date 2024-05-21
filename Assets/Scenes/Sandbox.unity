@@ -684,6 +684,10 @@ PrefabInstance:
       propertyPath: m_StoppingDistance
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3045956405925569690, guid: 115e97d11593546258058ef8c0836100, type: 3}
+      propertyPath: hitPoints
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 3095676141262451979, guid: 115e97d11593546258058ef8c0836100, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.38
