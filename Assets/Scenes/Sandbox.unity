@@ -343,6 +343,11 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!20 &443076325 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 2182583368850793690, guid: b484290ce29044d6892c60ccc66592b3, type: 3}
+  m_PrefabInstance: {fileID: 5710482747729124509}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705200479
 GameObject:
   m_ObjectHideFlags: 0
@@ -1803,6 +1808,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 119773898899621083, guid: b484290ce29044d6892c60ccc66592b3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 135384715339465929, guid: b484290ce29044d6892c60ccc66592b3, type: 3}
       propertyPath: followCamera
       value: 
@@ -1815,10 +1824,22 @@ PrefabInstance:
       propertyPath: zoomOutSensitivity
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 412595496853902287, guid: b484290ce29044d6892c60ccc66592b3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 483232463585530730, guid: b484290ce29044d6892c60ccc66592b3, type: 3}
       propertyPath: gameOverCanvas
       value: 
       objectReference: {fileID: 1008332958}
+    - target: {fileID: 1648574297626205504, guid: b484290ce29044d6892c60ccc66592b3, type: 3}
+      propertyPath: FPCamera
+      value: 
+      objectReference: {fileID: 443076325}
+    - target: {fileID: 1917538944160753717, guid: b484290ce29044d6892c60ccc66592b3, type: 3}
+      propertyPath: FPCamera
+      value: 
+      objectReference: {fileID: 443076325}
     - target: {fileID: 2023137598559206294, guid: b484290ce29044d6892c60ccc66592b3, type: 3}
       propertyPath: m_Lens.FieldOfView
       value: 40
@@ -1834,6 +1855,14 @@ PrefabInstance:
     - target: {fileID: 2182583368850793693, guid: b484290ce29044d6892c60ccc66592b3, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.000000029802322
+      objectReference: {fileID: 0}
+    - target: {fileID: 2182583368850793693, guid: b484290ce29044d6892c60ccc66592b3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2182583368850793693, guid: b484290ce29044d6892c60ccc66592b3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2653340728015106656, guid: b484290ce29044d6892c60ccc66592b3, type: 3}
       propertyPath: cursorLocked
