@@ -182,7 +182,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3045956405925569690, guid: 115e97d11593546258058ef8c0836100, type: 3}
       propertyPath: hitPoints
-      value: 150
+      value: 250
       objectReference: {fileID: 0}
     - target: {fileID: 3095676141262451979, guid: 115e97d11593546258058ef8c0836100, type: 3}
       propertyPath: m_LocalPosition.x
@@ -230,7 +230,7 @@ PrefabInstance:
       objectReference: {fileID: 8997996947260169246}
     - target: {fileID: 5362302128262434269, guid: 115e97d11593546258058ef8c0836100, type: 3}
       propertyPath: chaseRange
-      value: 10
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 6557508718120190018, guid: 115e97d11593546258058ef8c0836100, type: 3}
       propertyPath: target
@@ -1264,7 +1264,7 @@ PrefabInstance:
       objectReference: {fileID: 8997996947260169246}
     - target: {fileID: 5362302128262434269, guid: 115e97d11593546258058ef8c0836100, type: 3}
       propertyPath: chaseRange
-      value: 10
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 6557508718120190018, guid: 115e97d11593546258058ef8c0836100, type: 3}
       propertyPath: target
@@ -1338,7 +1338,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3045956405925569690, guid: 115e97d11593546258058ef8c0836100, type: 3}
       propertyPath: hitPoints
-      value: 150
+      value: 250
       objectReference: {fileID: 0}
     - target: {fileID: 3095676141262451979, guid: 115e97d11593546258058ef8c0836100, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1386,7 +1386,7 @@ PrefabInstance:
       objectReference: {fileID: 8997996947260169246}
     - target: {fileID: 5362302128262434269, guid: 115e97d11593546258058ef8c0836100, type: 3}
       propertyPath: chaseRange
-      value: 10
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 6557508718120190018, guid: 115e97d11593546258058ef8c0836100, type: 3}
       propertyPath: target
@@ -1731,7 +1731,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3045956405925569690, guid: 115e97d11593546258058ef8c0836100, type: 3}
       propertyPath: hitPoints
-      value: 150
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 3095676141262451979, guid: 115e97d11593546258058ef8c0836100, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1779,7 +1779,7 @@ PrefabInstance:
       objectReference: {fileID: 8997996947260169246}
     - target: {fileID: 5362302128262434269, guid: 115e97d11593546258058ef8c0836100, type: 3}
       propertyPath: chaseRange
-      value: 10
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 6557508718120190018, guid: 115e97d11593546258058ef8c0836100, type: 3}
       propertyPath: target
