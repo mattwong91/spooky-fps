@@ -796,7 +796,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1008332955
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1284,6 +1284,11 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 3095676141262451979, guid: 115e97d11593546258058ef8c0836100, type: 3}
   m_PrefabInstance: {fileID: 8725981812634647474}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1428888439 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2023137598559205992, guid: b484290ce29044d6892c60ccc66592b3, type: 3}
+  m_PrefabInstance: {fileID: 5710482747729124509}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1445421920
 GameObject:
@@ -1798,10 +1803,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 135384715339465929, guid: b484290ce29044d6892c60ccc66592b3, type: 3}
+      propertyPath: followCamera
+      value: 
+      objectReference: {fileID: 1428888439}
+    - target: {fileID: 135384715339465929, guid: b484290ce29044d6892c60ccc66592b3, type: 3}
+      propertyPath: zoomInSensitivity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 135384715339465929, guid: b484290ce29044d6892c60ccc66592b3, type: 3}
+      propertyPath: zoomOutSensitivity
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 483232463585530730, guid: b484290ce29044d6892c60ccc66592b3, type: 3}
       propertyPath: gameOverCanvas
       value: 
       objectReference: {fileID: 1008332958}
+    - target: {fileID: 2023137598559206294, guid: b484290ce29044d6892c60ccc66592b3, type: 3}
+      propertyPath: m_Lens.FieldOfView
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 2182583368850793690, guid: b484290ce29044d6892c60ccc66592b3, type: 3}
+      propertyPath: field of view
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 2182583368850793693, guid: b484290ce29044d6892c60ccc66592b3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.2000008

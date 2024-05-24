@@ -26,7 +26,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 32384}
   vertical: 1
-  controlID: 25727
+  controlID: 28258
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -799,7 +799,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 50}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 25722
+  controlID: 28373
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -872,7 +872,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/AssetPacks/StarterAssets/FirstPersonController/Scripts
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -880,16 +880,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/AssetPacks/StarterAssets/FirstPersonController/Scripts
   m_LastFoldersGridSize: 16
   m_LastProjectPath: /Users/matt/source/unity-projects/3D-udemy-course/spooky-fps
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 00780000
-    m_LastClickedID: 30720
-    m_ExpandedIDs: 0000000024760000267600002a7600002c7600002e76000030760000327600009478000036c5000000ca9a3b
+    m_SelectedIDs: 88c50000
+    m_LastClickedID: 50568
+    m_ExpandedIDs: 0000000024760000267600002a7600002c7600002e7600003076000032760000f47700009478000036c5000076c5000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -917,7 +917,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000024760000267600002a7600002c7600002e76000030760000327600009478000036c5000000ca9a3b
+    m_ExpandedIDs: 0000000024760000267600002a7600002c7600002e7600003076000032760000f47700009478000036c5000076c5000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1164,7 +1164,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1268
-  m_LastVerticalScrollValue: 71
+  m_LastVerticalScrollValue: 635
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -1338,7 +1338,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -1580
+  m_LastSelectedObjectID: -1268
 --- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
