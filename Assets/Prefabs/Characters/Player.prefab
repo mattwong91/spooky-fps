@@ -124,6 +124,7 @@ GameObject:
   - component: {fileID: 7070697013310179931}
   - component: {fileID: 483232463585530730}
   - component: {fileID: 135384715339465929}
+  - component: {fileID: 4570077586838720969}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -376,6 +377,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f26565957d9694eecb3ec550bce9c82b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  followCamera: {fileID: 0}
+  zoomOutFOV: 40
+  zoomInFOV: 20
+  zoomOutSensitivity: 5
+  zoomInSensitivity: 2
+--- !u!114 &4570077586838720969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6728798648167195502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc5b459b674344112850110cd5ccfa17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ammoAmount: 10
 --- !u!1 &7799633484552830605
 GameObject:
   m_ObjectHideFlags: 0
@@ -456,6 +475,10 @@ PrefabInstance:
       propertyPath: FPCamera
       value: 
       objectReference: {fileID: 2182583368850793690}
+    - target: {fileID: 2739776672558259593, guid: 60e7e2515777f4df4b0d5595c582a8c4, type: 3}
+      propertyPath: ammoSlot
+      value: 
+      objectReference: {fileID: 4570077586838720969}
     - target: {fileID: 3963193692526651338, guid: 60e7e2515777f4df4b0d5595c582a8c4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
