@@ -1039,6 +1039,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7821659560404328628}
   - component: {fileID: 2773621026320650386}
+  - component: {fileID: 5384589927861959924}
   m_Layer: 0
   m_Name: Shotgun
   m_TagString: Untagged
@@ -1078,11 +1079,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FPCamera: {fileID: 0}
-  range: 100
-  damage: 50
+  range: 10
+  damage: 60
   muzzleFlash: {fileID: 40432270660215791}
   hitEffect: {fileID: 1150672228618028466, guid: d7544670eaa2347e5bdfacff3de549c2, type: 3}
   ammoSlot: {fileID: 0}
+  timeBetweenShots: 2
+--- !u!114 &5384589927861959924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4415800994023013500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f26565957d9694eecb3ec550bce9c82b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fpsCamera: {fileID: 0}
+  fpsController: {fileID: 0}
+  zoomOutFOV: 40
+  zoomInFOV: 20
+  zoomOutSensitivity: 5
+  zoomInSensitivity: 2
 --- !u!1 &4701019835182283729
 GameObject:
   m_ObjectHideFlags: 0

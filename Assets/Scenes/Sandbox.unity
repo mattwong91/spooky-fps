@@ -343,11 +343,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!20 &443076325 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 2182583368850793690, guid: b484290ce29044d6892c60ccc66592b3, type: 3}
-  m_PrefabInstance: {fileID: 5710482747729124509}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705200479
 GameObject:
   m_ObjectHideFlags: 0
@@ -1832,14 +1827,6 @@ PrefabInstance:
       propertyPath: gameOverCanvas
       value: 
       objectReference: {fileID: 1008332958}
-    - target: {fileID: 1648574297626205504, guid: b484290ce29044d6892c60ccc66592b3, type: 3}
-      propertyPath: FPCamera
-      value: 
-      objectReference: {fileID: 443076325}
-    - target: {fileID: 1917538944160753717, guid: b484290ce29044d6892c60ccc66592b3, type: 3}
-      propertyPath: FPCamera
-      value: 
-      objectReference: {fileID: 443076325}
     - target: {fileID: 2023137598559206294, guid: b484290ce29044d6892c60ccc66592b3, type: 3}
       propertyPath: m_Lens.FieldOfView
       value: 40
@@ -1871,6 +1858,10 @@ PrefabInstance:
     - target: {fileID: 6728798648167195502, guid: b484290ce29044d6892c60ccc66592b3, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6836529878844658407, guid: b484290ce29044d6892c60ccc66592b3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8575178984576994643, guid: b484290ce29044d6892c60ccc66592b3, type: 3}
       propertyPath: m_LocalPosition.x
