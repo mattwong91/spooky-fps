@@ -1101,7 +1101,7 @@ MonoBehaviour:
   fpsCamera: {fileID: 0}
   fpsController: {fileID: 0}
   zoomOutFOV: 40
-  zoomInFOV: 20
+  zoomInFOV: 40
   zoomOutSensitivity: 5
   zoomInSensitivity: 2
 --- !u!1 &4701019835182283729
