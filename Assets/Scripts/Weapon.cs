@@ -15,6 +15,10 @@ public class Weapon : MonoBehaviour
 
   bool canShoot = true;
 
+  void OnEnable()
+  {
+    canShoot = true;
+  }
   void Update()
   {
     if (Input.GetMouseButtonDown(0) && canShoot == true)
