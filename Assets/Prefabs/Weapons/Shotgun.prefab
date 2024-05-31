@@ -1086,6 +1086,7 @@ MonoBehaviour:
   ammoSlot: {fileID: 0}
   ammoType: 1
   timeBetweenShots: 1
+  ammoText: {fileID: 0}
 --- !u!114 &5384589927861959924
 MonoBehaviour:
   m_ObjectHideFlags: 0

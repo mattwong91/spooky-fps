@@ -234,6 +234,7 @@ GameObject:
   - component: {fileID: 7070697013310179931}
   - component: {fileID: 483232463585530730}
   - component: {fileID: 4570077586838720969}
+  - component: {fileID: 5540810704844489979}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -488,6 +489,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammoSlots: []
+--- !u!114 &5540810704844489979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6728798648167195502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a8acaec1bd714da5b368493f7347fd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageCanvas: {fileID: 0}
+  vfxDuration: 0.3
 --- !u!1 &7799633484552830605
 GameObject:
   m_ObjectHideFlags: 0
@@ -628,7 +643,7 @@ PrefabInstance:
       objectReference: {fileID: 4570077586838720969}
     - target: {fileID: 9005220659476430818, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.20000051
+      value: 0.20000005
       objectReference: {fileID: 0}
     - target: {fileID: 9005220659476430818, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
       propertyPath: m_LocalPosition.y
@@ -636,7 +651,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9005220659476430818, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.000000029802322
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9005220659476430818, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
       propertyPath: m_LocalRotation.w
@@ -652,7 +667,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9005220659476430818, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 9005220659476430818, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
